@@ -3,7 +3,7 @@ package com.examploDTO.dto.employee;
 import com.examploDTO.entity.Employee;
 
 public class EmployeeDTO {
-
+	
 	private String nome;
     private String email;
     private String senha;

@@ -7,6 +7,11 @@ como contêiner para dados formatados. Se a cada consulta
 você trazer uma entidade toda pode ser que você derrube a 
 qualidade do seu software em desempenho.
 
+MÉTODO SALVAR
+Recebemos um objeto do tipo EmployeeDTO e chamamos o método salvar() do objeto employeeService 
+passando como parâmetro o nosso DTO transformado para objeto real, no caso, transformado em um 
+objeto do tipo Employee. Esse método nos devolve o usuário salvo que é transformado em um DTO 
+de resposta que é enviado.
 
 CONCLUSÃO
 O padrão de projeto DTO é muito útil tanto para receber dados 
