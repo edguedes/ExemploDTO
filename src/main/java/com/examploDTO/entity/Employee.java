@@ -14,6 +14,16 @@ public class Employee implements Serializable{
     private String email;
     private String senha;
     private boolean admin = false;
+    
+    public Employee() {    	
+    }
+    
+	public Employee(String nome, String email, String senha) {
+		super();
+		this.nome = nome;
+		this.email = email;
+		this.senha = senha;
+	}
 	public Long getId() {
 		return id;
 	}
