@@ -1,0 +1,14 @@
+
+Exemplo de uma aplicação para cadastro de funcionário. Onde
+temos o uso de TRANSFERENCIA DE OBJETO DE DADOS onde temos
+a vantagem do O DTO é útil para você otimizar o sistema e 
+carregar a quantidade necessária de dados, além de servir 
+como contêiner para dados formatados. Se a cada consulta 
+você trazer uma entidade toda pode ser que você derrube a 
+qualidade do seu software em desempenho.
+
+
+CONCLUSÃO
+O padrão de projeto DTO é muito útil tanto para receber dados 
+quanto para enviá-los, pois podemos manipular da forma que quisermos
+tais dados para facilitar a comunicação entre o servidor e o client.
